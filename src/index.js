@@ -14,11 +14,7 @@ ReactDOM.render(
       fontWeightText="bold"
     />
     <Text text="Danger notification" colorText="red" />
-    <Text
-      text="Underlined text"
-      colorText="black"
-      underline
-    />
+    <Text text="Underlined text" colorText="black" underline />
   </React.StrictMode>,
   document.getElementById("root")
 );
