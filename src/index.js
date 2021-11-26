@@ -13,7 +13,7 @@ ReactDOM.render(
       fontSizeText={30}
       fontWeightText="bold"
     />
-    <Text text="Danger notification" flexText="flex" colorText="red" />
+    <Text text="Danger notification" colorText="red" />
     <Text
       text="Underlined text"
       centerText="center"
