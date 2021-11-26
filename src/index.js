@@ -13,13 +13,8 @@ ReactDOM.render(
       fontSizeText={30}
       fontWeightText="bold"
     />
-    <Text text="Danger notification" colorText="red" />
-    <Text
-      text="Underlined text"
-      centerText="center"
-      colorText="black"
-      underline
-    />
+    <Text text="Danger notification" flexText="flex" colorText="red" />
+    <Text text="Underlined text" colorText="black" underline />
   </React.StrictMode>,
   document.getElementById("root")
 );
