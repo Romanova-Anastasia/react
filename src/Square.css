@@ -1,0 +1,30 @@
+.square-big {
+  width: 300px;
+  height: 300px;
+  background-color: #5cf0f0;
+  border: 2px solid black;
+}
+
+.square-medium {
+  width: 200px;
+  height: 200px;
+  background-color: #3ea4a4;
+  border: 2px solid black;
+}
+
+.square-small {
+  width: 100px;
+  height: 100px;
+  background-color: #205555;
+  border: 2px solid black;
+}
+
+.square-big,
+.square-medium,
+.square-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px auto;
+}
